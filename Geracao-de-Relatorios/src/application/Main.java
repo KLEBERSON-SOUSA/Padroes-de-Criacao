@@ -41,12 +41,12 @@ public class Main {
         } while(opcao != 0);
 
         // Geração de todos os relatórios
-        System.out.println("\nGERANDO TODOS OS RELATÓRIOS...\n");
+        System.out.println("GERANDO TODOS OS RELATÓRIOS...");
 
         List<Relatorio> relatorios = RelatorioFactory.criarTodosRelatorios();
         for (Relatorio relatorio : relatorios) {
             relatorio.gerarRelatorio(cliente);
-            System.out.println(); // Espaço entre relatórios
+            System.out.println();
         }
 
         sc.close();

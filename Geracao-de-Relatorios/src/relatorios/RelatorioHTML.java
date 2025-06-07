@@ -11,7 +11,7 @@ public class RelatorioHTML implements Relatorio {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
         double total = calcularTotal(cliente);
 
-        System.out.println("\n<!-- RELATÓRIO HTML -->");
+        System.out.println("<!-- RELATÓRIO HTML -->");
         System.out.println("<div class='relatorio'>");
         System.out.println("  <h1>Relatório de Pedidos</h1>");
         System.out.println("  <p><strong>Formato:</strong> " + getTipo() + "</p>");

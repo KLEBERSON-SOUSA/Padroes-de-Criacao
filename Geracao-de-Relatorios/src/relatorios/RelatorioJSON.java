@@ -38,7 +38,7 @@ public class RelatorioJSON implements Relatorio {
         json.append("  \"totalPedido\": " + total + "\n");
         json.append("}");
 
-        System.out.println("\n=== RELATÓRIO JSON ===");
+        System.out.println("=== RELATÓRIO JSON ===");
         System.out.println(json.toString());
         System.out.println("=====================");
     }
