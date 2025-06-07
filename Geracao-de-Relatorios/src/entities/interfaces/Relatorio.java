@@ -1,12 +1,8 @@
 package entities.interfaces;
 
-import entities.Pedido;
-
-import java.util.ArrayList;
-import java.util.List;
+import entities.Cliente;
 
 public interface Relatorio {
-    List <Pedido> pedidos = new ArrayList<>();
-
-    public void gerarRelatorio();
+    void gerarRelatorio(Cliente cliente);
+    String getTipo();
 }
