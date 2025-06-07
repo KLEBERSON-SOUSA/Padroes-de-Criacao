@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Padroes-de-Criacao.iml" filepath="$PROJECT_DIR$/.idea/Padroes-de-Criacao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/geracao-de-relatorios/geracao-de-relatorios.iml" filepath="$PROJECT_DIR$/geracao-de-relatorios/geracao-de-relatorios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geracao-de-Relatorios/geracao-de-relatorios.iml" filepath="$PROJECT_DIR$/Geracao-de-Relatorios/geracao-de-relatorios.iml" />
     </modules>
   </component>
 </project>
